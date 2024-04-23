@@ -28,7 +28,7 @@ function displayData(productData){
         
          productDesc.innerText = item.description;
         
-         productPrice.innerText = item.price;
+         productPrice.innerText = item.price + "$";
         
          product.append(productHeading);
          product.append(productImg);
